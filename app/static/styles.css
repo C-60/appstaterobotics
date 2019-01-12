@@ -1,0 +1,329 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+a:link { 
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: hotpink;
+} 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+p span 
+{
+    display: block;
+}
+
+.grid {
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.special-col {
+  grid-row: 2 / 4;
+  background-color: #222;
+}
+.item1 { grid-area: home; }
+.item2 { grid-area: history; }
+.item3 { grid-area: about_us; }
+.item4 { grid-area: roaster; }
+.item5 { grid-area: donate; }
+.item900 { grid-area:social_media }
+
+.item6 { grid-area: name; }
+.item7 { grid-area: year; }
+.item8 { grid-area: major; }
+.item9 { grid-area: team; }
+
+.item10 { grid-area: name1; }
+.item11 { grid-area: year1; }
+.item12 { grid-area: major1; }
+.item13 { grid-area: team1; }
+
+.item14 { grid-area: name2; }
+.item15 { grid-area: year2; }
+.item16 { grid-area: major2; }
+.item17 { grid-area: team2; }
+
+.item18 { grid-area: name3; }
+.item19 { grid-area: year3; }
+.item20 { grid-area: major3; }
+.item21 { grid-area: team3; }
+
+.item22 { grid-area: name4; }
+.item23 { grid-area: year4; }
+.item24 { grid-area: major4; }
+.item25 { grid-area: team4; }
+
+.item26 { grid-area: name5; }
+.item27 { grid-area: year5; }
+.item28 { grid-area: major5; }
+.item29 { grid-area: team5; }
+
+.item30 { grid-area: name6; }
+.item31 { grid-area: year6; }
+.item32 { grid-area: major6; }
+.item33 { grid-area: team6; }
+
+.item34 { grid-area: name7; }
+.item35 { grid-area: year7; }
+.item36 { grid-area: major7; }
+.item37 { grid-area: team7; }
+
+.item38 { grid-area: name8; }
+.item39 { grid-area: year8; }
+.item40 { grid-area: major8; }
+.item41 { grid-area: team8; }
+
+.item41 { grid-area: name8; }
+.item42 { grid-area: year8; }
+.item43 { grid-area: major8; }
+.item44 { grid-area: team8; }
+
+.item45 { grid-area: name9; }
+.item46 { grid-area: year9; }
+.item47 { grid-area: major9; }
+.item48 { grid-area: team9; }
+
+.item49 { grid-area:name10; }
+.item50 { grid-area:year10; }
+.item51 { grid-area:major10; }
+.item52 { grid-area:team10; }
+
+.item53 { grid-area:name11; }
+.item54 { grid-area:year11; }
+.item55 { grid-area:major11; }
+.item56 { grid-area:team11; }
+
+.item57 { grid-area:name12; }
+.item58 { grid-area:year12; }
+.item59 { grid-area:major12; }
+.item60 { grid-area:team12; }
+
+.item61 { grid-area:name13; }
+.item62 { grid-area:year13; }
+.item63 { grid-area:major13; }
+.item64 { grid-area:team13; }
+
+.item65 { grid-area:name14; }
+.item66 { grid-area:year14; }
+.item67 { grid-area:major14; }
+.item68 { grid-area:team14; }
+
+.item69 { grid-area:name15; }
+.item70 { grid-area:year15; }
+.item71 { grid-area:major15; }
+.item72 { grid-area:team15; }
+
+.item73 { grid-area:name16; }
+.item74 { grid-area:year16; }
+.item75 { grid-area:major16; }
+.item76 { grid-area:team16; }
+
+.item77 { grid-area:name17; }
+.item78 { grid-area:year17; }
+.item79 { grid-area:major17; }
+.item80 { grid-area:team17; }
+
+.item81 { grid-area:name18; }
+.item82 { grid-area:year18; }
+.item83 { grid-area:major18; }
+.item84 { grid-area:team18; }
+
+.item85 { grid-area:name19; }
+.item86 { grid-area:year19; }
+.item87 { grid-area:major19; }
+.item88 { grid-area:team19; }
+
+.item89 { grid-area:name20; }
+.item90 { grid-area:year20; }
+.item91 { grid-area:major20; }
+.item92 { grid-area:team20; }
+
+.item93 { grid-area:name21; }
+.item94 { grid-area:year21; }
+.item95 { grid-area:major21; }
+.item96 { grid-area:team21; }
+
+.item97 { grid-area:name22; }
+.item98 { grid-area:year22; }
+.item99 { grid-area:major22; }
+.item100 { grid-area:team22; }
+
+.item101 { grid-area:name23; }
+.item102 { grid-area:year23; }
+.item103 { grid-area:major23; }
+.item104 { grid-area:team23; }
+
+.item105 { grid-area:name24; }
+.item106 { grid-area:year24; }
+.item107 { grid-area:major24; }
+.item108 { grid-area:team24; }
+
+.item109 { grid-area:name25; }
+.item110 { grid-area:year25; }
+.item111 { grid-area:major25; }
+.item112 { grid-area:team25; }
+
+.item113 { grid-area:name26; }
+.item114 { grid-area:year26; }
+.item115 { grid-area:major26; }
+.item116 { grid-area:team26; }
+
+.item117 { grid-area:name27; }
+.item118 { grid-area:year27; }
+.item119 { grid-area:major27; }
+.item120 { grid-area:team27; }
+
+.item121 { grid-area:name28; }
+.item122 { grid-area:year28; }
+.item123 { grid-area:major28; }
+.item124 { grid-area:team28; }
+
+.item125 { grid-area:name29; }
+.item126 { grid-area:year29; }
+.item127 { grid-area:major29; }
+.item128 { grid-area:team29; }
+
+.item129 { grid-area:name30; }
+.item130 { grid-area:year30; }
+.item131 { grid-area:major30; }
+.item132 { grid-area:team30; }
+
+.item133 { grid-area:name31; }
+.item134 { grid-area:year31; }
+.item135 { grid-area:major31; }
+.item136 { grid-area:team31; }
+
+.item137 { grid-area:name32; }
+.item138 { grid-area:year32; }
+.item139 { grid-area:major32; }
+.item140 { grid-area:team32; }
+
+.item141 { grid-area:name33; }
+.item142 { grid-area:year33; }
+.item143 { grid-area:major33; }
+.item144 { grid-area:team33; }
+
+.item145 { grid-area:name34; }
+.item146 { grid-area:year34; }
+.item147 { grid-area:major34; }
+.item148 { grid-area:team34; }
+
+.item149 { grid-area:name35; }
+.item150 { grid-area:year35; }
+.item151 { grid-area:major35; }
+.item152 { grid-area:team35; }
+
+.item153 { grid-area:name36; }
+.item154 { grid-area:year36; }
+.item155 { grid-area:major36; }
+.item156 { grid-area:team36; }
+
+.item157 { grid-area:name37; }
+.item158 { grid-area:year37; }
+.item159 { grid-area:major37; }
+.item160 { grid-area:team37; }
+
+.item161 { grid-area:name38; }
+.item162 { grid-area:year38; }
+.item163 { grid-area:major38; }
+.item164 { grid-area:team38; }
+
+.item165 { grid-area:name39; }
+.item166 { grid-area:year39; }
+.item167 { grid-area:major39; }
+.item168 { grid-area:team39; }
+
+.item169 { grid-area:name40; }
+.item170 { grid-area:year40; }
+.item171 { grid-area:major40; }
+.item172 { grid-area:team40; }
+
+.item173 { grid-area:name41; }
+.item174 { grid-area:year41; }
+.item175 { grid-area:major41; }
+.item176 { grid-area:team41; }
+
+.item177 { grid-area:future; }
+.item178 { grid-area:URC; }
+.item179 { grid-area:adv; }
+.item180 { grid-area:form; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+    'future URC'
+    'adv form';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-areas:
+    'name year major team'
+    'name1 year1 major1 team1'
+    'name2 year2 major2 team2'
+    'name3 year3 major3 team3'
+    'name4 year4 major4 team4'
+    'name5 year5 major5 team5'
+    'name6 year6 major6 team6'
+    'name7 year7 major7 team7';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'home history about_us roaster donate social_media ';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
